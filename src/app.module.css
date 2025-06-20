@@ -1,0 +1,39 @@
+.app {
+	padding: 20px 35px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+}
+
+.form input {
+	margin-bottom: 15px;
+}
+
+.form button {
+	background: #3e3e58;
+	color: #fff;
+	cursor: pointer;
+}
+
+.form button:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.form button:focus {
+	border-color: #4a9af9;
+}
+
+.form input,
+.form button {
+	font-size: 16px;
+	padding: 7px 15px;
+}
+
+.errorLabel {
+	color: red;
+	margin-bottom: 5px;
+}
